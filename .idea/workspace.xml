@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2ed237-b64c-4287-a355-c43656f6cd32" name="更改" comment="" />
+    <list default="true" id="da2ed237-b64c-4287-a355-c43656f6cd32" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/lightseeking/worldgen/placed_feature/silver_magma.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/worldgen/placed_feature/silver_magma.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +105,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lightseeking-studio-next"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lightseeking-studio-next/lightseekingnext_mod.git",
+    "accountId": "1e8abc88-280f-4925-978a-3082d16f65ce"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-e572a196b7/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2/minecraft-common-e572a196b7-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar!/net/minecraft/item/ArmorItem.class" root0="SKIP_INSPECTION" />
   </component>
