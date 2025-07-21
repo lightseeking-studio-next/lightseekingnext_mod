@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "W": {
+      "item": "lightseeking:jade"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lightseeking:jade_shovel",
+    "count": 1
+  }
+}

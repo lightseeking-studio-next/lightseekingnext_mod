@@ -1,0 +1,23 @@
+{
+  "lightseeking.items": "\u5BFB\u5149\uFF1A\u7269\u54C1",
+  "item.lightseeking.jade": "\u7389",
+  "item.lightseeking.jade_sword": "\u9752\u7389\u5251",
+  "item.lightseeking.jade_axe": "青玉斧",
+  "item.lightseeking.jade_hoe": "青玉锄",
+  "item.lightseeking.jade_shovel": "青玉铲",
+  "item.lightseeking.white_jade_axe": "白玉斧",
+  "item.lightseeking.white_jade_hoe": "白玉锄",
+  "item.lightseeking.white_jade_shovel": "白玉铲",
+  "item.lightseeking.jade_pickaxe": "\u9752\u7389\u9550",
+  "block.lightseeking.jade_block_mineral": "\u9752\u7389\u77FF",
+  "block.lightseeking.silver_magma": "\u6D41\u94F6\u77FF",
+  "item.lightseeking.white_jade": "\u767D\u7389",
+  "item.lightseeking.white_jade_sword": "\u767D\u7389\u5251",
+  "item.lightseeking.white_jade_pickaxe": "\u767D\u7389\u9550",
+  "block.lightseeking.white_jade_block_mineral": "\u767D\u7389\u77FF",
+  "item.lightseeking.jade_helmet": "\u6DF7\u7389\u5934\u76D4",
+  "item.lightseeking.jade_boots": "\u6DF7\u7389\u978B\u5B50",
+  "item.lightseeking.jade_leggings": "\u6DF7\u7389\u62A4\u817F",
+  "item.lightseeking.jade_chestplate": "\u6DF7\u7389\u80F8\u7532",
+  "item.lightseeking.silver_magma_item": "\u6D41\u94F6"
+}

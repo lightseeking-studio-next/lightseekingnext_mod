@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "lightseeking",
+  "version": "0.3",
+  "name": "寻光",
+  "description": "寻光·初始版本",
+  "authors": ["FL studio"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/lightseeking/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "lsk.lightseekingnext.client.LightseekingnextDataGenerator"
+    ],
+    "client": [
+      "lsk.lightseekingnext.client.LightseekingnextClient"
+    ],
+    "main": [
+      "lsk.lightseekingnext.Lightseekingnext"
+    ]
+  },
+  "mixins": [
+    "lightseekingnext.mixins.json",
+    {
+      "config": "lightseekingnext.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

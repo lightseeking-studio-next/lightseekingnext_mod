@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "S S",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "lightseeking:jade"
+    },
+    "S": {
+      "item": "lightseeking:white_jade"
+    }
+  },
+  "result": {
+    "item": "lightseeking:jade_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,219 @@
+[17:44:34] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.14
+[17:44:34] [main/INFO] (FabricLoader) Loading 59 mods:
+	- fabric-api 0.92.6+1.20.1
+	- fabric-api-base 0.4.32+1802ada577
+	- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	- fabric-biome-api-v1 13.0.14+1802ada577
+	- fabric-block-api-v1 1.0.12+1802ada577
+	- fabric-block-view-api-v2 1.0.3+924f046a77
+	- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	- fabric-client-tags-api-v1 1.1.3+1802ada577
+	- fabric-command-api-v1 1.2.35+f71b366f77
+	- fabric-command-api-v2 2.2.14+1802ada577
+	- fabric-commands-v0 0.2.52+df3654b377
+	- fabric-containers-v0 0.1.67+df3654b377
+	- fabric-content-registries-v0 4.0.13+1802ada577
+	- fabric-convention-tags-v1 1.5.6+1802ada577
+	- fabric-crash-report-info-v1 0.2.20+1802ada577
+	- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	- fabric-data-generation-api-v1 12.3.7+1802ada577
+	- fabric-dimensions-v1 2.1.55+1802ada577
+	- fabric-entity-events-v1 1.6.1+1c78457f77
+	- fabric-events-interaction-v0 0.6.5+13a40c6677
+	- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	- fabric-game-rule-api-v1 1.0.41+1802ada577
+	- fabric-gametest-api-v1 1.2.15+1802ada577
+	- fabric-item-api-v1 2.1.29+1802ada577
+	- fabric-item-group-api-v1 4.0.14+1802ada577
+	- fabric-key-binding-api-v1 1.0.38+1802ada577
+	- fabric-keybindings-v0 0.2.36+df3654b377
+	- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	- fabric-loot-api-v2 1.2.3+1802ada577
+	- fabric-loot-tables-v1 1.1.47+9e7660c677
+	- fabric-message-api-v1 5.1.10+1802ada577
+	- fabric-mining-level-api-v1 2.1.52+1802ada577
+	- fabric-model-loading-api-v1 1.0.4+1802ada577
+	- fabric-models-v0 0.4.3+9386d8a777
+	- fabric-networking-api-v1 1.3.14+a158aa0477
+	- fabric-networking-v0 0.3.54+df3654b377
+	- fabric-object-builder-api-v1 11.1.5+e35120df77
+	- fabric-particles-v1 1.1.3+1802ada577
+	- fabric-recipe-api-v1 1.0.24+1802ada577
+	- fabric-registry-sync-v0 2.3.6+1802ada577
+	- fabric-renderer-api-v1 3.2.2+1802ada577
+	- fabric-renderer-indigo 1.5.3+85287f9f77
+	- fabric-renderer-registries-v1 3.2.47+df3654b377
+	- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	- fabric-rendering-v0 1.1.50+df3654b377
+	- fabric-rendering-v1 3.0.9+1802ada577
+	- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	- fabric-screen-api-v1 2.0.9+1802ada577
+	- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	- fabric-sound-api-v1 1.0.14+1802ada577
+	- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabricloader 0.16.14
+	- java 21
+	- lightseeking 0.3
+	- minecraft 1.20.1
+	- mixinextras 0.4.1
+[17:44:35] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/jerry/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[17:44:35] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[17:44:35] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[17:44:35] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[17:44:38] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:44:47] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 383 milliseconds
+[17:44:52] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[17:44:53] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:44:54] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:733) ~[minecraft-clientOnly-e572a196b7-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:442) ~[minecraft-clientOnly-e572a196b7-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[minecraft-clientOnly-e572a196b7-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 9 more
+[17:44:54] [Render thread/INFO] (Minecraft) Setting user: Player336
+[17:44:55] [Render thread/INFO] (lightseeking) 寻光模组测试
+[17:44:55] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[17:44:56] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[17:44:58] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-object-builder-api-v1, fabric-crash-report-info-v1, fabric-command-api-v1, fabric-loot-api-v2, fabricloader, fabric-entity-events-v1, fabric-game-rule-api-v1, fabric-events-interaction-v0, fabric-api, fabric-rendering-data-attachment-v1, fabric-api-base, fabric-models-v0, fabric-client-tags-api-v1, fabric-convention-tags-v1, fabric-networking-v0, fabric-rendering-fluids-v1, fabric-message-api-v1, fabric-rendering-v0, fabric-content-registries-v0, fabric-renderer-registries-v1, fabric-item-group-api-v1, fabric-loot-tables-v1, fabric-data-generation-api-v1, fabric-commands-v0, fabric-item-api-v1, fabric-registry-sync-v0, fabric-model-loading-api-v1, fabric-blockrenderlayer-v1, fabric-sound-api-v1, fabric-networking-api-v1, fabric-data-attachment-api-v1, fabric-particles-v1, fabric-renderer-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-rendering-v1, fabric-block-view-api-v2, lightseeking, fabric-containers-v0, fabric-screen-handler-api-v1, fabric-key-binding-api-v1, fabric-command-api-v2, fabric-recipe-api-v1, fabric-transfer-api-v1, fabric-resource-conditions-api-v1, fabric-events-lifecycle-v0, fabric-lifecycle-events-v1, fabric-gametest-api-v1, fabric-block-api-v1, fabric-biome-api-v1, fabric-keybindings-v0, fabric-mining-level-api-v1, fabric-api-lookup-api-v1, fabric-renderer-indigo, fabric-transitive-access-wideners-v1, fabric-dimensions-v1)
+[17:44:58] [Worker-Main-2/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[17:44:59] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
+[17:45:00] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[17:45:00] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17:45:00] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[17:45:00] [Render thread/INFO] (Minecraft) Sound engine started
+[17:45:01] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[17:45:02] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[17:45:02] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:45:02] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:45:02] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[17:45:04] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:45:04] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[17:45:04] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:45:04] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:45:05] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17:45:05] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:45:05] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:45:05] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:34:06] [Server Pinger #0/ERROR] (Minecraft) Can't ping lightseeking.eu.org: 未知的主机
+[19:35:41] [Render thread/INFO] (Minecraft) Connecting to lightseeking.eu.org, 25565
+[19:35:46] [Render thread/WARN] (Minecraft) Unknown feature flag: minecraft:update_1_21
+[19:35:46] [Render thread/WARN] (Minecraft) Unknown feature flag: minecraft:winter_drop
+[19:35:47] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 2eef3335-8d1f-3428-af42-f3cec9010d4c
+[19:35:47] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 00000000-0000-0000-0009-01fc763e3711
+[19:35:47] [Render thread/WARN] (Minecraft) Unknown custom packed identifier: bladeren:hello
+[19:35:47] [Render thread/INFO] (Minecraft) [System] [CHAT] Player336加入了游戏
+[19:35:47] [Render thread/INFO] (Minecraft) [System] [CHAT] §bLite§3SignIn §f§l>>> §a§l你今天还没有签到! §c§l[点击此处打开签到界面]
+[19:35:47] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/1, l='ClientLevel', x=-10.78, y=-20183416.98, z=7.46] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/2, l='ClientLevel', x=-15.29, y=-20183416.98, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/3, l='ClientLevel', x=-10.55, y=-20183416.98, z=6.48] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/4, l='ClientLevel', x=-6.19, y=-20183416.98, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/5, l='ClientLevel', x=-12.29, y=-20183416.98, z=6.22] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/6, l='ClientLevel', x=-12.29, y=-20183416.98, z=6.22] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/7, l='ClientLevel', x=-7.85, y=-20183416.98, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/8, l='ClientLevel', x=-12.04, y=-20183416.98, z=7.82] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/9, l='ClientLevel', x=-8.88, y=-20183416.98, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/10, l='ClientLevel', x=-12.29, y=-20183416.98, z=6.22] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/11, l='ClientLevel', x=-13.15, y=-20183416.98, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/12, l='ClientLevel', x=-13.72, y=-20183416.98, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/13, l='ClientLevel', x=-12.29, y=-20183416.98, z=6.22] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/14, l='ClientLevel', x=-7.27, y=-20183416.98, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/15, l='ClientLevel', x=-9.58, y=-20183416.98, z=6.51] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/16, l='ClientLevel', x=-10.74, y=-20183416.98, z=9.05] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/17, l='ClientLevel', x=-12.29, y=-20183416.98, z=6.22] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/18, l='ClientLevel', x=-12.40, y=-20183416.98, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/19, l='ClientLevel', x=-9.63, y=-20183416.98, z=4.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/20, l='ClientLevel', x=-10.68, y=-20183416.98, z=3.08] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/21, l='ClientLevel', x=-5.57, y=-20183416.98, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/22, l='ClientLevel', x=-12.29, y=-20183416.98, z=6.22] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/359, l='ClientLevel', x=-16.11, y=-20183420.90, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/360, l='ClientLevel', x=-17.77, y=-20183420.90, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/361, l='ClientLevel', x=-16.74, y=-20183420.90, z=6.79] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity BeeEntity['蜜蜂'/915, l='ClientLevel', x=-14.11, y=65.99, z=32.02] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity BeeEntity['蜜蜂'/915, l='ClientLevel', x=-14.11, y=65.99, z=32.02] does not have attribute null
+[19:35:48] [Render thread/WARN] (Minecraft) Entity GhastEntity['Happy Ghast'/1152, l='ClientLevel', x=21.60, y=77.52, z=32.98] does not have attribute minecraft:generic.flying_speed
+[19:35:48] [Render thread/WARN] (Minecraft) Entity GhastEntity['Happy Ghast'/1152, l='ClientLevel', x=21.60, y=77.52, z=32.98] does not have attribute minecraft:generic.flying_speed
+[19:35:48] [Render thread/WARN] (Minecraft) Entity GhastEntity['Happy Ghast'/1152, l='ClientLevel', x=21.60, y=77.52, z=32.98] does not have attribute minecraft:generic.flying_speed
+[19:35:49] [Render thread/INFO] (Minecraft) [System] [CHAT] 请使用命令注册服务器账号：/register <密码> <确认密码>
+[19:35:54] [Render thread/INFO] (Minecraft) [System] [CHAT] 请使用命令注册服务器账号：/register <密码> <确认密码>
+[19:35:54] [Render thread/INFO] (Minecraft) [System] [CHAT] .hahanb取得了进度[整装上阵]
+[19:35:59] [Render thread/INFO] (Minecraft) [System] [CHAT] 请使用命令注册服务器账号：/register <密码> <确认密码>
+[19:36:04] [Render thread/INFO] (Minecraft) [System] [CHAT] 请使用命令注册服务器账号：/register <密码> <确认密码>
+[19:36:10] [Render thread/INFO] (Minecraft) [System] [CHAT] 请使用命令注册服务器账号：/register <密码> <确认密码>
+[20:20:21] [Render thread/INFO] (Minecraft) Connecting to lightseeking.eu.org, 25565
+[20:20:23] [Render thread/WARN] (Minecraft) Unknown feature flag: minecraft:update_1_21
+[20:20:23] [Render thread/WARN] (Minecraft) Unknown feature flag: minecraft:winter_drop
+[20:20:24] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 2eef3335-8d1f-3428-af42-f3cec9010d4c
+[20:20:24] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player a97d7027-1ae1-3ce0-86e3-0fd135c5661e
+[20:20:24] [Render thread/WARN] (Minecraft) Unknown custom packed identifier: bladeren:hello
+[20:20:24] [Render thread/INFO] (Minecraft) [System] [CHAT] Player336加入了游戏
+[20:20:24] [Render thread/INFO] (Minecraft) [System] [CHAT] §bLite§3SignIn §f§l>>> §a§l你今天还没有签到! §c§l[点击此处打开签到界面]
+[20:20:24] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/1, l='ClientLevel', x=-10.78, y=-20393101.90, z=7.46] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/2, l='ClientLevel', x=-15.29, y=-20393101.90, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/3, l='ClientLevel', x=-10.55, y=-20393101.90, z=6.48] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/4, l='ClientLevel', x=-6.19, y=-20393101.90, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/5, l='ClientLevel', x=-12.29, y=-20393101.90, z=6.22] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/6, l='ClientLevel', x=-12.29, y=-20393101.90, z=6.22] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/7, l='ClientLevel', x=-7.85, y=-20393101.90, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/8, l='ClientLevel', x=-12.04, y=-20393101.90, z=7.82] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/9, l='ClientLevel', x=-8.88, y=-20393101.90, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/10, l='ClientLevel', x=-12.29, y=-20393101.90, z=6.22] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/11, l='ClientLevel', x=-13.15, y=-20393101.90, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/12, l='ClientLevel', x=-13.72, y=-20393101.90, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/13, l='ClientLevel', x=-12.29, y=-20393101.90, z=6.22] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/14, l='ClientLevel', x=-7.27, y=-20393101.90, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/15, l='ClientLevel', x=-9.58, y=-20393101.90, z=6.51] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/16, l='ClientLevel', x=-10.74, y=-20393101.90, z=9.05] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/17, l='ClientLevel', x=-12.29, y=-20393101.90, z=6.22] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/18, l='ClientLevel', x=-12.40, y=-20393101.90, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/19, l='ClientLevel', x=-9.63, y=-20393101.90, z=4.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/20, l='ClientLevel', x=-10.68, y=-20393101.90, z=3.08] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/21, l='ClientLevel', x=-5.57, y=-20393101.90, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/22, l='ClientLevel', x=-12.29, y=-20393101.90, z=6.22] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity BeeEntity['蜜蜂'/42730, l='ClientLevel', x=-6.53, y=71.57, z=14.74] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/359, l='ClientLevel', x=-16.11, y=-20393109.74, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/360, l='ClientLevel', x=-17.77, y=-20393109.74, z=6.79] does not have attribute null
+[20:20:24] [Render thread/WARN] (Minecraft) Entity VillagerEntity['Discontinued project #1'/361, l='ClientLevel', x=-16.74, y=-20393109.74, z=6.79] does not have attribute null
+[20:20:25] [Render thread/WARN] (Minecraft) Entity GhastEntity['Happy Ghast'/1152, l='ClientLevel', x=27.43, y=82.52, z=46.51] does not have attribute minecraft:generic.flying_speed
+[20:20:25] [Render thread/INFO] (Minecraft) [System] [CHAT] 请使用命令注册服务器账号：/register <密码> <确认密码>
+[20:20:31] [Render thread/INFO] (Minecraft) [System] [CHAT] 请使用命令注册服务器账号：/register <密码> <确认密码>
+[20:20:34] [Render thread/INFO] (Minecraft) [System] [CHAT] 你必须先通过身份验证才能聊天！
+[20:42:44] [Render thread/INFO] (Minecraft) Connecting to 103.217.195.36, 28244
+[20:42:50] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:banner_pattern] are present in data pack: minecraft:pattern_item/bordure_indented, minecraft:pattern_item/field_masoned, minecraft:pattern_item/flow, minecraft:pattern_item/guster
+[20:42:50] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:armadillo_food, minecraft:axolotl_food, minecraft:bee_food, minecraft:book_cloning_target, minecraft:brewing_fuel, minecraft:bundles, minecraft:camel_food, minecraft:cat_food, minecraft:chest_armor, minecraft:chicken_food, minecraft:cow_food, minecraft:diamond_tool_materials, minecraft:drowned_preferred_weapons, minecraft:duplicates_allays, minecraft:dyeable, minecraft:eggs, minecraft:enchantable/armor, minecraft:enchantable/bow, minecraft:enchantable/chest_armor, minecraft:enchantable/crossbow, minecraft:enchantable/durability, minecraft:enchantable/equippable, minecraft:enchantable/fire_aspect, minecraft:enchantable/fishing, minecraft:enchantable/foot_armor, minecraft:enchantable/head_armor, minecraft:enchantable/leg_armor, minecraft:enchantable/mace, minecraft:enchantable/mining, minecraft:enchantable/mining_loot, minecraft:enchantable/sharp_weapon, minecraft:enchantable/sword, minecraft:enchantable/trident, minecraft:enchantable/vanishing, minecraft:enchantable/weapon, minecraft:foot_armor, minecraft:frog_food, minecraft:furnace_minecart_fuel, minecraft:gaze_disguise_equipment, minecraft:goat_food, minecraft:gold_tool_materials, minecraft:happy_ghast_food, minecraft:happy_ghast_tempt_items, minecraft:harnesses, minecraft:head_armor, minecraft:hoglin_food, minecraft:horse_food, minecraft:horse_tempt_items, minecraft:iron_tool_materials, minecraft:leg_armor, minecraft:llama_food, minecraft:llama_tempt_items, minecraft:map_invisibility_equipment, minecraft:meat, minecraft:netherite_tool_materials, minecraft:ocelot_food, minecraft:pale_oak_logs, minecraft:panda_eats_from_ground, minecraft:panda_food, minecraft:parrot_food, minecraft:parrot_poisonous_food, minecraft:pig_food, minecraft:piglin_preferred_weapons, minecraft:piglin_safe_armor, minecraft:pillager_preferred_weapons, minecraft:rabbit_food, minecraft:repairs_chain_armor, minecraft:repairs_diamond_armor, minecraft:repairs_gold_armor, minecraft:repairs_iron_armor, minecraft:repairs_leather_armor, minecraft:repairs_netherite_armor, minecraft:repairs_turtle_helmet, minecraft:repairs_wolf_armor, minecraft:sheep_food, minecraft:shulker_boxes, minecraft:skeleton_preferred_weapons, minecraft:skulls, minecraft:strider_food, minecraft:strider_tempt_items, minecraft:turtle_food, minecraft:villager_picks_up, minecraft:wither_skeleton_disliked_weapons, minecraft:wolf_food, minecraft:wooden_tool_materials
+[20:42:50] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: minecraft:aquatic, minecraft:arthropod, minecraft:boat, minecraft:can_breathe_under_water, minecraft:can_equip_harness, minecraft:can_equip_saddle, minecraft:can_turn_in_boats, minecraft:can_wear_horse_armor, minecraft:deflects_projectiles, minecraft:followable_friendly_mobs, minecraft:ignores_poison_and_regen, minecraft:illager, minecraft:illager_friends, minecraft:immune_to_infested, minecraft:immune_to_oozing, minecraft:inverted_healing_and_harm, minecraft:no_anger_from_wind_charge, minecraft:non_controlling_rider, minecraft:not_scary_for_pufferfish, minecraft:redirectable_projectile, minecraft:sensitive_to_bane_of_arthropods, minecraft:sensitive_to_impaling, minecraft:sensitive_to_smite, minecraft:undead, minecraft:wither_friends, minecraft:zombies
+[20:42:50] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:air, minecraft:armadillo_spawnable_on, minecraft:badlands_terracotta, minecraft:bats_spawnable_on, minecraft:bee_attractive, minecraft:blocks_wind_charge_explosions, minecraft:camel_sand_step_sound_blocks, minecraft:camels_spawnable_on, minecraft:concrete_powder, minecraft:does_not_block_hoppers, minecraft:dry_vegetation_may_place_on, minecraft:edible_for_sheep, minecraft:happy_ghast_avoids, minecraft:incorrect_for_diamond_tool, minecraft:incorrect_for_gold_tool, minecraft:incorrect_for_iron_tool, minecraft:incorrect_for_netherite_tool, minecraft:incorrect_for_stone_tool, minecraft:incorrect_for_wooden_tool, minecraft:mob_interactable_doors, minecraft:pale_oak_logs, minecraft:replaceable_by_mushrooms, minecraft:sword_instantly_mines, minecraft:triggers_ambient_desert_dry_vegetation_block_sounds, minecraft:triggers_ambient_desert_sand_block_sounds, minecraft:triggers_ambient_dried_ghast_block_sounds
+[20:43:40] [Render thread/INFO] (Minecraft) Connecting to 103.217.195.36, 28244
+[20:43:46] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:banner_pattern] are present in data pack: minecraft:pattern_item/bordure_indented, minecraft:pattern_item/field_masoned, minecraft:pattern_item/flow, minecraft:pattern_item/guster
+[20:43:46] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:armadillo_food, minecraft:axolotl_food, minecraft:bee_food, minecraft:book_cloning_target, minecraft:brewing_fuel, minecraft:bundles, minecraft:camel_food, minecraft:cat_food, minecraft:chest_armor, minecraft:chicken_food, minecraft:cow_food, minecraft:diamond_tool_materials, minecraft:drowned_preferred_weapons, minecraft:duplicates_allays, minecraft:dyeable, minecraft:eggs, minecraft:enchantable/armor, minecraft:enchantable/bow, minecraft:enchantable/chest_armor, minecraft:enchantable/crossbow, minecraft:enchantable/durability, minecraft:enchantable/equippable, minecraft:enchantable/fire_aspect, minecraft:enchantable/fishing, minecraft:enchantable/foot_armor, minecraft:enchantable/head_armor, minecraft:enchantable/leg_armor, minecraft:enchantable/mace, minecraft:enchantable/mining, minecraft:enchantable/mining_loot, minecraft:enchantable/sharp_weapon, minecraft:enchantable/sword, minecraft:enchantable/trident, minecraft:enchantable/vanishing, minecraft:enchantable/weapon, minecraft:foot_armor, minecraft:frog_food, minecraft:furnace_minecart_fuel, minecraft:gaze_disguise_equipment, minecraft:goat_food, minecraft:gold_tool_materials, minecraft:happy_ghast_food, minecraft:happy_ghast_tempt_items, minecraft:harnesses, minecraft:head_armor, minecraft:hoglin_food, minecraft:horse_food, minecraft:horse_tempt_items, minecraft:iron_tool_materials, minecraft:leg_armor, minecraft:llama_food, minecraft:llama_tempt_items, minecraft:map_invisibility_equipment, minecraft:meat, minecraft:netherite_tool_materials, minecraft:ocelot_food, minecraft:pale_oak_logs, minecraft:panda_eats_from_ground, minecraft:panda_food, minecraft:parrot_food, minecraft:parrot_poisonous_food, minecraft:pig_food, minecraft:piglin_preferred_weapons, minecraft:piglin_safe_armor, minecraft:pillager_preferred_weapons, minecraft:rabbit_food, minecraft:repairs_chain_armor, minecraft:repairs_diamond_armor, minecraft:repairs_gold_armor, minecraft:repairs_iron_armor, minecraft:repairs_leather_armor, minecraft:repairs_netherite_armor, minecraft:repairs_turtle_helmet, minecraft:repairs_wolf_armor, minecraft:sheep_food, minecraft:shulker_boxes, minecraft:skeleton_preferred_weapons, minecraft:skulls, minecraft:strider_food, minecraft:strider_tempt_items, minecraft:turtle_food, minecraft:villager_picks_up, minecraft:wither_skeleton_disliked_weapons, minecraft:wolf_food, minecraft:wooden_tool_materials
+[20:43:46] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: minecraft:aquatic, minecraft:arthropod, minecraft:boat, minecraft:can_breathe_under_water, minecraft:can_equip_harness, minecraft:can_equip_saddle, minecraft:can_turn_in_boats, minecraft:can_wear_horse_armor, minecraft:deflects_projectiles, minecraft:followable_friendly_mobs, minecraft:ignores_poison_and_regen, minecraft:illager, minecraft:illager_friends, minecraft:immune_to_infested, minecraft:immune_to_oozing, minecraft:inverted_healing_and_harm, minecraft:no_anger_from_wind_charge, minecraft:non_controlling_rider, minecraft:not_scary_for_pufferfish, minecraft:redirectable_projectile, minecraft:sensitive_to_bane_of_arthropods, minecraft:sensitive_to_impaling, minecraft:sensitive_to_smite, minecraft:undead, minecraft:wither_friends, minecraft:zombies
+[20:43:46] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:air, minecraft:armadillo_spawnable_on, minecraft:badlands_terracotta, minecraft:bats_spawnable_on, minecraft:bee_attractive, minecraft:blocks_wind_charge_explosions, minecraft:camel_sand_step_sound_blocks, minecraft:camels_spawnable_on, minecraft:concrete_powder, minecraft:does_not_block_hoppers, minecraft:dry_vegetation_may_place_on, minecraft:edible_for_sheep, minecraft:happy_ghast_avoids, minecraft:incorrect_for_diamond_tool, minecraft:incorrect_for_gold_tool, minecraft:incorrect_for_iron_tool, minecraft:incorrect_for_netherite_tool, minecraft:incorrect_for_stone_tool, minecraft:incorrect_for_wooden_tool, minecraft:mob_interactable_doors, minecraft:pale_oak_logs, minecraft:replaceable_by_mushrooms, minecraft:sword_instantly_mines, minecraft:triggers_ambient_desert_dry_vegetation_block_sounds, minecraft:triggers_ambient_desert_sand_block_sounds, minecraft:triggers_ambient_dried_ghast_block_sounds
+[20:48:47] [Render thread/ERROR] (Minecraft) Can't ping lightseeking.eu.org: 连接超时
+[20:51:03] [Render thread/INFO] (Minecraft) Connecting to 103.217.195.36, 28244
+[20:51:12] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:banner_pattern] are present in data pack: minecraft:pattern_item/bordure_indented, minecraft:pattern_item/field_masoned, minecraft:pattern_item/flow, minecraft:pattern_item/guster
+[20:51:12] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:armadillo_food, minecraft:axolotl_food, minecraft:bee_food, minecraft:book_cloning_target, minecraft:brewing_fuel, minecraft:bundles, minecraft:camel_food, minecraft:cat_food, minecraft:chest_armor, minecraft:chicken_food, minecraft:cow_food, minecraft:diamond_tool_materials, minecraft:drowned_preferred_weapons, minecraft:duplicates_allays, minecraft:dyeable, minecraft:eggs, minecraft:enchantable/armor, minecraft:enchantable/bow, minecraft:enchantable/chest_armor, minecraft:enchantable/crossbow, minecraft:enchantable/durability, minecraft:enchantable/equippable, minecraft:enchantable/fire_aspect, minecraft:enchantable/fishing, minecraft:enchantable/foot_armor, minecraft:enchantable/head_armor, minecraft:enchantable/leg_armor, minecraft:enchantable/mace, minecraft:enchantable/mining, minecraft:enchantable/mining_loot, minecraft:enchantable/sharp_weapon, minecraft:enchantable/sword, minecraft:enchantable/trident, minecraft:enchantable/vanishing, minecraft:enchantable/weapon, minecraft:foot_armor, minecraft:frog_food, minecraft:furnace_minecart_fuel, minecraft:gaze_disguise_equipment, minecraft:goat_food, minecraft:gold_tool_materials, minecraft:happy_ghast_food, minecraft:happy_ghast_tempt_items, minecraft:harnesses, minecraft:head_armor, minecraft:hoglin_food, minecraft:horse_food, minecraft:horse_tempt_items, minecraft:iron_tool_materials, minecraft:leg_armor, minecraft:llama_food, minecraft:llama_tempt_items, minecraft:map_invisibility_equipment, minecraft:meat, minecraft:netherite_tool_materials, minecraft:ocelot_food, minecraft:pale_oak_logs, minecraft:panda_eats_from_ground, minecraft:panda_food, minecraft:parrot_food, minecraft:parrot_poisonous_food, minecraft:pig_food, minecraft:piglin_preferred_weapons, minecraft:piglin_safe_armor, minecraft:pillager_preferred_weapons, minecraft:rabbit_food, minecraft:repairs_chain_armor, minecraft:repairs_diamond_armor, minecraft:repairs_gold_armor, minecraft:repairs_iron_armor, minecraft:repairs_leather_armor, minecraft:repairs_netherite_armor, minecraft:repairs_turtle_helmet, minecraft:repairs_wolf_armor, minecraft:sheep_food, minecraft:shulker_boxes, minecraft:skeleton_preferred_weapons, minecraft:skulls, minecraft:strider_food, minecraft:strider_tempt_items, minecraft:turtle_food, minecraft:villager_picks_up, minecraft:wither_skeleton_disliked_weapons, minecraft:wolf_food, minecraft:wooden_tool_materials
+[20:51:12] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: minecraft:aquatic, minecraft:arthropod, minecraft:boat, minecraft:can_breathe_under_water, minecraft:can_equip_harness, minecraft:can_equip_saddle, minecraft:can_turn_in_boats, minecraft:can_wear_horse_armor, minecraft:deflects_projectiles, minecraft:followable_friendly_mobs, minecraft:ignores_poison_and_regen, minecraft:illager, minecraft:illager_friends, minecraft:immune_to_infested, minecraft:immune_to_oozing, minecraft:inverted_healing_and_harm, minecraft:no_anger_from_wind_charge, minecraft:non_controlling_rider, minecraft:not_scary_for_pufferfish, minecraft:redirectable_projectile, minecraft:sensitive_to_bane_of_arthropods, minecraft:sensitive_to_impaling, minecraft:sensitive_to_smite, minecraft:undead, minecraft:wither_friends, minecraft:zombies
+[20:51:12] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:air, minecraft:armadillo_spawnable_on, minecraft:badlands_terracotta, minecraft:bats_spawnable_on, minecraft:bee_attractive, minecraft:blocks_wind_charge_explosions, minecraft:camel_sand_step_sound_blocks, minecraft:camels_spawnable_on, minecraft:concrete_powder, minecraft:does_not_block_hoppers, minecraft:dry_vegetation_may_place_on, minecraft:edible_for_sheep, minecraft:happy_ghast_avoids, minecraft:incorrect_for_diamond_tool, minecraft:incorrect_for_gold_tool, minecraft:incorrect_for_iron_tool, minecraft:incorrect_for_netherite_tool, minecraft:incorrect_for_stone_tool, minecraft:incorrect_for_wooden_tool, minecraft:mob_interactable_doors, minecraft:pale_oak_logs, minecraft:replaceable_by_mushrooms, minecraft:sword_instantly_mines, minecraft:triggers_ambient_desert_dry_vegetation_block_sounds, minecraft:triggers_ambient_desert_sand_block_sounds, minecraft:triggers_ambient_dried_ghast_block_sounds
+[20:53:26] [Render thread/INFO] (Minecraft) Connecting to 103.217.195.36, 28244
+[20:53:33] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:banner_pattern] are present in data pack: minecraft:pattern_item/bordure_indented, minecraft:pattern_item/field_masoned, minecraft:pattern_item/flow, minecraft:pattern_item/guster
+[20:53:33] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:armadillo_food, minecraft:axolotl_food, minecraft:bee_food, minecraft:book_cloning_target, minecraft:brewing_fuel, minecraft:bundles, minecraft:camel_food, minecraft:cat_food, minecraft:chest_armor, minecraft:chicken_food, minecraft:cow_food, minecraft:diamond_tool_materials, minecraft:drowned_preferred_weapons, minecraft:duplicates_allays, minecraft:dyeable, minecraft:eggs, minecraft:enchantable/armor, minecraft:enchantable/bow, minecraft:enchantable/chest_armor, minecraft:enchantable/crossbow, minecraft:enchantable/durability, minecraft:enchantable/equippable, minecraft:enchantable/fire_aspect, minecraft:enchantable/fishing, minecraft:enchantable/foot_armor, minecraft:enchantable/head_armor, minecraft:enchantable/leg_armor, minecraft:enchantable/mace, minecraft:enchantable/mining, minecraft:enchantable/mining_loot, minecraft:enchantable/sharp_weapon, minecraft:enchantable/sword, minecraft:enchantable/trident, minecraft:enchantable/vanishing, minecraft:enchantable/weapon, minecraft:foot_armor, minecraft:frog_food, minecraft:furnace_minecart_fuel, minecraft:gaze_disguise_equipment, minecraft:goat_food, minecraft:gold_tool_materials, minecraft:happy_ghast_food, minecraft:happy_ghast_tempt_items, minecraft:harnesses, minecraft:head_armor, minecraft:hoglin_food, minecraft:horse_food, minecraft:horse_tempt_items, minecraft:iron_tool_materials, minecraft:leg_armor, minecraft:llama_food, minecraft:llama_tempt_items, minecraft:map_invisibility_equipment, minecraft:meat, minecraft:netherite_tool_materials, minecraft:ocelot_food, minecraft:pale_oak_logs, minecraft:panda_eats_from_ground, minecraft:panda_food, minecraft:parrot_food, minecraft:parrot_poisonous_food, minecraft:pig_food, minecraft:piglin_preferred_weapons, minecraft:piglin_safe_armor, minecraft:pillager_preferred_weapons, minecraft:rabbit_food, minecraft:repairs_chain_armor, minecraft:repairs_diamond_armor, minecraft:repairs_gold_armor, minecraft:repairs_iron_armor, minecraft:repairs_leather_armor, minecraft:repairs_netherite_armor, minecraft:repairs_turtle_helmet, minecraft:repairs_wolf_armor, minecraft:sheep_food, minecraft:shulker_boxes, minecraft:skeleton_preferred_weapons, minecraft:skulls, minecraft:strider_food, minecraft:strider_tempt_items, minecraft:turtle_food, minecraft:villager_picks_up, minecraft:wither_skeleton_disliked_weapons, minecraft:wolf_food, minecraft:wooden_tool_materials
+[20:53:33] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: minecraft:aquatic, minecraft:arthropod, minecraft:boat, minecraft:can_breathe_under_water, minecraft:can_equip_harness, minecraft:can_equip_saddle, minecraft:can_turn_in_boats, minecraft:can_wear_horse_armor, minecraft:deflects_projectiles, minecraft:followable_friendly_mobs, minecraft:ignores_poison_and_regen, minecraft:illager, minecraft:illager_friends, minecraft:immune_to_infested, minecraft:immune_to_oozing, minecraft:inverted_healing_and_harm, minecraft:no_anger_from_wind_charge, minecraft:non_controlling_rider, minecraft:not_scary_for_pufferfish, minecraft:redirectable_projectile, minecraft:sensitive_to_bane_of_arthropods, minecraft:sensitive_to_impaling, minecraft:sensitive_to_smite, minecraft:undead, minecraft:wither_friends, minecraft:zombies
+[20:53:33] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:air, minecraft:armadillo_spawnable_on, minecraft:badlands_terracotta, minecraft:bats_spawnable_on, minecraft:bee_attractive, minecraft:blocks_wind_charge_explosions, minecraft:camel_sand_step_sound_blocks, minecraft:camels_spawnable_on, minecraft:concrete_powder, minecraft:does_not_block_hoppers, minecraft:dry_vegetation_may_place_on, minecraft:edible_for_sheep, minecraft:happy_ghast_avoids, minecraft:incorrect_for_diamond_tool, minecraft:incorrect_for_gold_tool, minecraft:incorrect_for_iron_tool, minecraft:incorrect_for_netherite_tool, minecraft:incorrect_for_stone_tool, minecraft:incorrect_for_wooden_tool, minecraft:mob_interactable_doors, minecraft:pale_oak_logs, minecraft:replaceable_by_mushrooms, minecraft:sword_instantly_mines, minecraft:triggers_ambient_desert_dry_vegetation_block_sounds, minecraft:triggers_ambient_desert_sand_block_sounds, minecraft:triggers_ambient_dried_ghast_block_sounds
+[21:07:36] [Render thread/ERROR] (Minecraft) Can't ping 103.217.195.36:55670: 连接超时
+[21:46:28] [Render thread/INFO] (Minecraft) Stopping!
