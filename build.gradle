@@ -34,6 +34,9 @@ repositories {
     maven {
         url 'https://repository.hanbings.io/proxy'
     }
+    maven {
+        url = "https://maven.kyrptonaught.dev"
+    }
 }
 
 dependencies {
@@ -43,6 +46,8 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    modImplementation 'net.kyrptonaught:customportalapi:0.0.1-beta65-1.20'
+    include 'net.kyrptonaught:customportalapi:0.0.1-beta65-1.20'
 }
 
 processResources {

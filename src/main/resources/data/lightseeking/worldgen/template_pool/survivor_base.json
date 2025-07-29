@@ -1,0 +1,55 @@
+{
+  "name": "lightseeking:survivor_base",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:survivor_base/farm"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:survivor_base/bedroom"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:survivor_base/storage"
+      }
+    },
+
+    {
+      "weight": 2,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:survivor_base/boxes"
+      }
+
+    },
+    {
+      "weight": 2,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:survivor_base/floor"
+      }
+
+    }
+
+  ]
+}

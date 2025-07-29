@@ -1,0 +1,14 @@
+{
+  "type": "overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 3703,
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "lightseeking:survival"
+    },
+    "settings": "minecraft:overworld"
+
+
+  }
+}
