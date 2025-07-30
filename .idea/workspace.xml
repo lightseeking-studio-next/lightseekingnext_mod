@@ -5,354 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c004715-a272-4e39-a757-1a5492e294c9" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lsk/lightseekingnext/cilent/model/survivormodel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lsk/lightseekingnext/cilent/renderer/survivorrenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lsk/lightseekingnext/door/syo_door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lsk/lightseekingnext/entity/survivor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lsk/lightseekingnext/lightseekingcilent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/dimension/skyopening.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/structures/start/shellta.nbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/structures/survivor_base/bedroom.nbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/structures/survivor_base/boxes.nbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/structures/survivor_base/farm.nbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/structures/survivor_base/floor.nbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/structures/survivor_base/shellta.nbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/structures/survivor_base/storage.nbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/worldgen/biome/survival.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/worldgen/structure/survivor_base.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/worldgen/structure_set/survivor_base.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/worldgen/template_pool/start.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/lightseeking/worldgen/template_pool/survivor_base.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lightseekingnext.client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lightseekingnext.client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lightseekingnext.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lightseekingnext.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lightseekingnext.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lightseekingnext.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-07-19-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-07-19-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-07-19-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-07-19-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-07-19-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-07-19-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-07-19-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-07-19-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-07-19-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-07-19-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-07-19-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-07-19-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-07-19-7.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/05d3c308-6531-310d-988c-a6164eaf800d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/37e4a5df-2479-34b7-be52-2f491341f6b1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/39c4f4aa-4d39-353b-b70e-747427551322.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/671fc71d-f6cb-3d6a-91ee-4151a2cbcf9a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/9bd3b5b5-2b26-3f14-8236-0cdd38b7c3b1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/9d68ef8a-3024-3cdc-bc81-6fbd472f8ed9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/a2831e23-8b0f-3ec4-8539-58e8d4db780a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/b4e0083c-c857-3e3a-a915-f92e6611bf03.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/bd5f3729-fa57-3746-815c-264ae5fac332.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/c4e77baf-70eb-32a3-a902-b5720679fae8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/c98187a9-e17b-3f48-8a33-882e62d18d19.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/eee10812-13cd-3f90-b77f-2195c9c5b71e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-2.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/05d3c308-6531-310d-988c-a6164eaf800d.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/05d3c308-6531-310d-988c-a6164eaf800d.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/37e4a5df-2479-34b7-be52-2f491341f6b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/37e4a5df-2479-34b7-be52-2f491341f6b1.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/39c4f4aa-4d39-353b-b70e-747427551322.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/39c4f4aa-4d39-353b-b70e-747427551322.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/671fc71d-f6cb-3d6a-91ee-4151a2cbcf9a.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/9bd3b5b5-2b26-3f14-8236-0cdd38b7c3b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/9bd3b5b5-2b26-3f14-8236-0cdd38b7c3b1.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/9d68ef8a-3024-3cdc-bc81-6fbd472f8ed9.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/9d68ef8a-3024-3cdc-bc81-6fbd472f8ed9.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/a2831e23-8b0f-3ec4-8539-58e8d4db780a.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/a2831e23-8b0f-3ec4-8539-58e8d4db780a.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/b4e0083c-c857-3e3a-a915-f92e6611bf03.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/bd5f3729-fa57-3746-815c-264ae5fac332.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/bd5f3729-fa57-3746-815c-264ae5fac332.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/c4e77baf-70eb-32a3-a902-b5720679fae8.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/c98187a9-e17b-3f48-8a33-882e62d18d19.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/eee10812-13cd-3f90-b77f-2195c9c5b71e.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/eee10812-13cd-3f90-b77f-2195c9c5b71e.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-2.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-2.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.0.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/05d3c308-6531-310d-988c-a6164eaf800d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/37e4a5df-2479-34b7-be52-2f491341f6b1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/39c4f4aa-4d39-353b-b70e-747427551322.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/671fc71d-f6cb-3d6a-91ee-4151a2cbcf9a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/9bd3b5b5-2b26-3f14-8236-0cdd38b7c3b1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/9d68ef8a-3024-3cdc-bc81-6fbd472f8ed9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/a2831e23-8b0f-3ec4-8539-58e8d4db780a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/b4e0083c-c857-3e3a-a915-f92e6611bf03.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/bd5f3729-fa57-3746-815c-264ae5fac332.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/c4e77baf-70eb-32a3-a902-b5720679fae8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/c98187a9-e17b-3f48-8a33-882e62d18d19.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/eee10812-13cd-3f90-b77f-2195c9c5b71e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/region/r.-1.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/region/r.-2.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/region/r.-2.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/region/r.-2.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/region/r.-2.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/silver/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/silver/region/r.0.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/advancements/9033e00b-50d9-3cb5-b190-7fa9d916bd8f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/advancements/e5bad5ae-87fa-3676-b10f-8a571200822c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.-2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.-2.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/playerdata/9033e00b-50d9-3cb5-b190-7fa9d916bd8f.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/playerdata/e5bad5ae-87fa-3676-b10f-8a571200822c.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/playerdata/e5bad5ae-87fa-3676-b10f-8a571200822c.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/poi/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/poi/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/poi/r.-2.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/poi/r.-2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/poi/r.-2.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/poi/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/poi/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/poi/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-2.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-2.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-3.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.-3.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.0.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/region/r.0.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/stats/9033e00b-50d9-3cb5-b190-7fa9d916bd8f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (3)/stats/e5bad5ae-87fa-3676-b10f-8a571200822c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/advancements/fef5996a-ff47-30bf-9025-1401c61fa24d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/playerdata/fef5996a-ff47-30bf-9025-1401c61fa24d.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/playerdata/fef5996a-ff47-30bf-9025-1401c61fa24d.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/poi/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/poi/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/poi/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/poi/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/poi/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/poi/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/region/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (5)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/region/r.0.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (5)/stats/fef5996a-ff47-30bf-9025-1401c61fa24d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/0c8f54b5-758c-3933-9675-7dfb411a82a2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/11e8c009-da15-3a5d-81f0-ba0017af511c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/2ce4ef37-1586-3eaf-ba6f-4b93d1e38829.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/3e97bd98-3fed-36a5-a2b2-bf93d544eeed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/48c2e6c7-8875-31cc-9a01-be7eaa5f9386.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/49b1c99f-ddf7-3830-8802-b69461c51429.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/6d917d12-8c99-3a68-96a3-2ce5d15924c0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/80fb4b31-a429-3891-a185-827168eac297.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/8dea17cd-e1ef-3064-95ba-e1811660f4f6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/b04d78c5-604b-370c-97e9-acff5d35c648.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/d4f59999-1785-359b-b48d-ac18df657dda.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/advancements/eed40018-eacf-3358-87a4-2d80ad7eb0d1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.2.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.2.2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.2.3.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.2.3.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.3.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.3.2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.3.3.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.3.3.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.3.4.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.3.4.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.4.2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.4.3.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.4.3.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.4.4.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/entities/r.4.4.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/0c8f54b5-758c-3933-9675-7dfb411a82a2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/0c8f54b5-758c-3933-9675-7dfb411a82a2.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/11e8c009-da15-3a5d-81f0-ba0017af511c.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/11e8c009-da15-3a5d-81f0-ba0017af511c.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/2ce4ef37-1586-3eaf-ba6f-4b93d1e38829.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/3e97bd98-3fed-36a5-a2b2-bf93d544eeed.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/3e97bd98-3fed-36a5-a2b2-bf93d544eeed.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/48c2e6c7-8875-31cc-9a01-be7eaa5f9386.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/48c2e6c7-8875-31cc-9a01-be7eaa5f9386.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/49b1c99f-ddf7-3830-8802-b69461c51429.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/49b1c99f-ddf7-3830-8802-b69461c51429.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/6d917d12-8c99-3a68-96a3-2ce5d15924c0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/6d917d12-8c99-3a68-96a3-2ce5d15924c0.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/80fb4b31-a429-3891-a185-827168eac297.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/80fb4b31-a429-3891-a185-827168eac297.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/8dea17cd-e1ef-3064-95ba-e1811660f4f6.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/8dea17cd-e1ef-3064-95ba-e1811660f4f6.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/b04d78c5-604b-370c-97e9-acff5d35c648.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/b04d78c5-604b-370c-97e9-acff5d35c648.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/d4f59999-1785-359b-b48d-ac18df657dda.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/d4f59999-1785-359b-b48d-ac18df657dda.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/eed40018-eacf-3358-87a4-2d80ad7eb0d1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/playerdata/eed40018-eacf-3358-87a4-2d80ad7eb0d1.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.-2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.2.3.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.2.3.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.3.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.3.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.3.2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.3.3.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.3.3.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.3.4.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.3.4.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.4.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.4.3.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.4.3.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.4.4.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/poi/r.4.4.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.-2.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.-2.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.-2.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.-2.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.-2.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.0.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.2.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.2.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.2.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.2.2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.2.3.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.2.3.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.3.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.3.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.3.2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.3.3.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.3.3.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.3.4.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.3.4.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.4.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.4.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.4.2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.4.3.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.4.3.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.4.4.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (6)/region/r.4.4.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/0c8f54b5-758c-3933-9675-7dfb411a82a2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/11e8c009-da15-3a5d-81f0-ba0017af511c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/2ce4ef37-1586-3eaf-ba6f-4b93d1e38829.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/3e97bd98-3fed-36a5-a2b2-bf93d544eeed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/48c2e6c7-8875-31cc-9a01-be7eaa5f9386.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/49b1c99f-ddf7-3830-8802-b69461c51429.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/6d917d12-8c99-3a68-96a3-2ce5d15924c0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/80fb4b31-a429-3891-a185-827168eac297.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/8dea17cd-e1ef-3064-95ba-e1811660f4f6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/b04d78c5-604b-370c-97e9-acff5d35c648.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/d4f59999-1785-359b-b48d-ac18df657dda.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (6)/stats/eed40018-eacf-3358-87a4-2d80ad7eb0d1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/advancements/08595ff7-f39e-30f7-893e-b08f1a5b2518.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.0.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/entities/r.1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/playerdata/08595ff7-f39e-30f7-893e-b08f1a5b2518.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/playerdata/08595ff7-f39e-30f7-893e-b08f1a5b2518.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.0.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/poi/r.1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.-1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.0.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (7)/region/r.1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (7)/stats/08595ff7-f39e-30f7-893e-b08f1a5b2518.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/fabricfz/obj/Debug/net8.0-windows/fabricfz.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/fabricfz/obj/Debug/net8.0-windows/fabricfz.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/fabricfz/obj/Debug/net8.0-windows/fabricfz.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/fabricfz/obj/Debug/net8.0-windows/fabricfz.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lsk/lightseekingnext/Lightseekingnext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lsk/lightseekingnext/Lightseekingnext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,12 +20,30 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="lightseekingnext" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lightseekingnext" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lightseekingnext" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lightseekingnext" type="f1a62948:ProjectNode" />
+                <item name="运行配置" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -389,6 +60,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1.21.1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -423,6 +99,7 @@
     "Gradle.下载源代码.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Desktop/lightseekingnext/src/main/resources/data/lightseeking/structures/start",
@@ -464,8 +141,100 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="lightseekingnext [genSources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="genSources" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="lightseekingnext [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="init" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="lightseekingnext [sourcesJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="sourcesJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="lightseekingnext [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wrapper" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.lightseekingnext [wrapper]" />
+        <item itemvalue="Gradle.lightseekingnext [sourcesJar]" />
+        <item itemvalue="Gradle.lightseekingnext [init]" />
+        <item itemvalue="Gradle.lightseekingnext [genSources]" />
         <item itemvalue="Gradle.lightseekingnext [build]" />
       </list>
     </recent_temporary>
@@ -479,5 +248,9 @@
       <updated>1753706888466</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.21.1移植版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.21.1移植版本" />
   </component>
 </project>
