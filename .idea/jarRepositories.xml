@@ -44,16 +44,6 @@
     <remote-repository>
       <option name="id" value="maven" />
       <option name="name" value="maven" />
-      <option name="url" value="https://maven.aliyun.com/nexus/content/groups/public" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="maven2" />
-      <option name="name" value="maven2" />
-      <option name="url" value="https://repository.hanbings.io/proxy" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="maven3" />
-      <option name="name" value="maven3" />
       <option name="url" value="https://maven.kyrptonaught.dev" />
     </remote-repository>
   </component>

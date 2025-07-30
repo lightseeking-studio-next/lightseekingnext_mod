@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "lightseeking:jadearmour"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "lightseeking:jadearmour"
+      }
+    ]
+  }
+}

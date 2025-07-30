@@ -10,8 +10,8 @@ public class ModItems {
 
 
     public static <T extends Item> T register(String path, T item) {
-        // 对于 1.21 之前的版本，请将 ''Identifier.of'' 替换为 ''new Identifier''
-        return Registry.register(Registries.ITEM,new Identifier("lightseeking", path), item);
+        // 对于 1.21 之前的版本，请将 ''Identifier.of'' 替换为 ''Identifier.of''
+        return Registry.register(Registries.ITEM,Identifier.of("lightseeking", path), item);
     }
 
     //物品注册开始

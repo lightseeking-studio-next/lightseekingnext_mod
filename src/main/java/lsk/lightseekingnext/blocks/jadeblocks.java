@@ -1,6 +1,6 @@
 package lsk.lightseekingnext.blocks;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -12,8 +12,8 @@ import net.minecraft.util.Identifier;
 public class jadeblocks {
 
     private static <T extends Block> T register(String path, T block) {
-        Registry.register(Registries.BLOCK,new Identifier("lightseeking", path), block);
-        Registry.register(Registries.ITEM, new Identifier("lightseeking", path), new BlockItem(block, new Item.Settings()));
+        Registry.register(Registries.BLOCK,Identifier.of("lightseeking", path), block);
+        Registry.register(Registries.ITEM, Identifier.of("lightseeking", path), new BlockItem(block, new Item.Settings()));
         return block;
     }
 //方块声明开始

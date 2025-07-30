@@ -1,0 +1,14 @@
+{
+  "type": "the_end",
+  "generator": {
+    "type": "flat",
+    "settings": {
+      "layers": [],
+      "biome": "lightseeking:univ",
+      "lakes": "false",
+      "structure_overrides": "univ:univ"
+    }
+  }
+
+
+}

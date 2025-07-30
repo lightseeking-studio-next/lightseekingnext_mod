@@ -6,7 +6,6 @@ import lsk.lightseekingnext.moditems.ModItems;
 import lsk.lightseekingnext.moditems.silver_magma_item;
 import lsk.lightseekingnext.modtools.jadepickaxe;
 import lsk.lightseekingnext.blocks.silver_magma;
-import lsk.lightseekingnext.entity.survivor;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
@@ -28,17 +27,17 @@ import org.slf4j.LoggerFactory;
 public class Lightseekingnext implements ModInitializer {
     public static final String MOD_ID = "lightseeking";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-    public static final RegistryKey<PlacedFeature> JADE_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("lightseeking","jade"));//矿物注册
-    public static final RegistryKey<PlacedFeature> SILVER_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("lightseeking","silver_magma"));//矿物注册
+    public static final RegistryKey<PlacedFeature> JADE_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifier.of("lightseeking","jade"));//矿物注册
+    public static final RegistryKey<PlacedFeature> SILVER_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE,Identifier.of("lightseeking","silver_magma"));//矿物注册
 
-
+/*
     //实体注册开始
     public static final EntityType<survivor> SURVIVOR = Registry.register(
             Registries.ENTITY_TYPE,
             new Identifier("entitytesting", "cube"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, survivor::new).dimensions(EntityDimensions.fixed(0.75f, 0.75f)).build()
     );
-
+*/
     @Override
     public void onInitialize() {
         LOGGER.info("寻光模组测试");
@@ -54,6 +53,6 @@ public class Lightseekingnext implements ModInitializer {
         silver_magma_item.initialize();
         syo_door.initialize();
         //实体注册
-        FabricDefaultAttributeRegistry.register(SURVIVOR, survivor.createMobAttributes());
+        //FabricDefaultAttributeRegistry.register(SURVIVOR, survivor.createMobAttributes());
     }
 }

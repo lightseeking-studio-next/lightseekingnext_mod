@@ -20,8 +20,8 @@ public class silver_magma {
 
 
     private static <T extends Block> T register(String path, T block) {
-        Registry.register(Registries.BLOCK,new Identifier("lightseeking", path), block);
-        Registry.register(Registries.ITEM, new Identifier("lightseeking", path), new BlockItem(block, new Item.Settings()));
+        Registry.register(Registries.BLOCK,Identifier.of("lightseeking", path), block);
+        Registry.register(Registries.ITEM, Identifier.of("lightseeking", path), new BlockItem(block, new Item.Settings()));
         return block;
     }
 //方块声明开始

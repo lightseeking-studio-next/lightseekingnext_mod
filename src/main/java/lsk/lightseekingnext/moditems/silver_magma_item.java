@@ -10,7 +10,7 @@ public class silver_magma_item {
 
 
     public static <T extends Item> T register(String path, T item) {
-        return Registry.register(Registries.ITEM,new Identifier("lightseeking", path), item);
+        return Registry.register(Registries.ITEM,Identifier.of("lightseeking", path), item);
     }
 
     //物品注册开始

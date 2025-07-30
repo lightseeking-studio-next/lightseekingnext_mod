@@ -1,0 +1,34 @@
+{
+  "name": "lightseeking:univ",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/room1"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/room2"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/tong4"
+      }
+    }
+
+  ]
+}
