@@ -1,6 +1,7 @@
 package lsk.lightseekingnext;
 import lsk.lightseekingnext.blocks.jadeblocks;
 import lsk.lightseekingnext.door.syo_door;
+import lsk.lightseekingnext.door.univ_door;
 import lsk.lightseekingnext.groups.items;
 import lsk.lightseekingnext.moditems.ModItems;
 import lsk.lightseekingnext.moditems.silver_magma_item;
@@ -32,12 +33,6 @@ public class Lightseekingnext implements ModInitializer {
     public static final RegistryKey<PlacedFeature> SILVER_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("lightseeking","silver_magma"));//矿物注册
 
 
-    //实体注册开始
-    public static final EntityType<survivor> SURVIVOR = Registry.register(
-            Registries.ENTITY_TYPE,
-            new Identifier("entitytesting", "cube"),
-            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, survivor::new).dimensions(EntityDimensions.fixed(0.75f, 0.75f)).build()
-    );
 
     @Override
     public void onInitialize() {
@@ -52,8 +47,10 @@ public class Lightseekingnext implements ModInitializer {
         //silver
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, SILVER_KEY);
         silver_magma_item.initialize();
+        //传送门注册
         syo_door.initialize();
+        univ_door.initialize();
         //实体注册
-        FabricDefaultAttributeRegistry.register(SURVIVOR, survivor.createMobAttributes());
+        //FabricDefaultAttributeRegistry.register(SURVIVOR, survivor.createMobAttributes());
     }
 }

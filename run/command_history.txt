@@ -1,0 +1,16 @@
+/gamemode spectator
+/kill
+/gamemode creative
+/place structure lightseeking:univ
+/place structure lightseeking:survivor_base
+/place structure lightseeking:univ
+/place feature lightseeking:jade
+/place feature lightseeking:jade ~ ~ ~
+/place feature lightseeking:silver_magma
+/place feature lightseeking:silver_magma ~ ~ ~
+/place jigsaw lightseeking:survivor_base
+/place structure lightseeking:univ
+/reload
+/gamemode survival
+/gamerule keepInventory true
+/gamemode creative

@@ -1,0 +1,80 @@
+{
+  "name": "lightseeking:univ",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/room1"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/room2"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/room3"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/room4"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/room5"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/room6"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/tong4"
+      }
+
+    },
+    {
+      "weight": 4,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "location": "lightseeking:univ/tong8"
+      }
+
+    }
+  ]
+}
